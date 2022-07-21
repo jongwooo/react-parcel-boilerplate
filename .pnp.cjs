@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@parcel/transformer-svg-react", "npm:2.6.2"],\
             ["parcel", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
+            ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0"]\
           ],\
@@ -3408,6 +3409,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -3491,6 +3501,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-parcel-boilerplate", "workspace:."],\
             ["@parcel/transformer-svg-react", "npm:2.6.2"],\
             ["parcel", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
+            ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0"]\
           ],\

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Boilerplate setup with parcel for a React project.",
   "private": true,
+  "scripts": {
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,yml,html}\"",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,yml,html}\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jongwooo/react-parcel-boilerplate.git"
@@ -20,6 +24,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-svg-react": "^2.6.2",
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "prettier": "^2.7.1"
   }
 }
