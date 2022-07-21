@@ -12,5 +12,6 @@
   "bugs": {
     "url": "https://github.com/jongwooo/react-parcel-boilerplate/issues"
   },
-  "homepage": "https://github.com/jongwooo/react-parcel-boilerplate#readme"
+  "homepage": "https://github.com/jongwooo/react-parcel-boilerplate#readme",
+  "packageManager": "yarn@3.2.2"
 }
