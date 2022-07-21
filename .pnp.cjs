@@ -33,17 +33,84 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["js-tokens", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",\
+          "packageDependencies": [\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["loose-envify", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
+          "packageDependencies": [\
+            ["loose-envify", "npm:1.4.0"],\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react", [\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
+          "packageDependencies": [\
+            ["react", "npm:18.2.0"],\
+            ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-dom", [\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+          "packageDependencies": [\
+            ["react-dom", "npm:18.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-09a6bdee87/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+          "packageDependencies": [\
+            ["react-dom", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0"],\
+            ["@types/react", null],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["react", "npm:18.2.0"],\
+            ["scheduler", "npm:0.23.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["react-parcel-boilerplate", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["react-parcel-boilerplate", "workspace:."]\
+            ["react-parcel-boilerplate", "workspace:."],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["scheduler", [\
+        ["npm:0.23.0", {\
+          "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
+          "packageDependencies": [\
+            ["scheduler", "npm:0.23.0"],\
+            ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\

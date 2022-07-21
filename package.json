@@ -13,5 +13,9 @@
     "url": "https://github.com/jongwooo/react-parcel-boilerplate/issues"
   },
   "homepage": "https://github.com/jongwooo/react-parcel-boilerplate#readme",
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
