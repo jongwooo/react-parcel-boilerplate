@@ -1,0 +1,16 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate setup with parcel for a React project.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jongwooo/react-parcel-boilerplate.git"
+  },
+  "author": "jongwooo <han980817@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jongwooo/react-parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jongwooo/react-parcel-boilerplate#readme"
+}
