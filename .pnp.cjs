@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@parcel/config-default", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
             ["@parcel/transformer-svg-react", "npm:2.6.2"],\
             ["parcel", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
             ["prettier", "npm:2.7.1"],\
@@ -672,6 +673,49 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/parcel__core"\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/@parcel-config-default-virtual-25ab511e32/0/cache/@parcel-config-default-npm-2.6.2-fd9b2d7d94-08cf9d08bb.zip/node_modules/@parcel/config-default/",\
+          "packageDependencies": [\
+            ["@parcel/config-default", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
+            ["@parcel/bundler-default", "npm:2.6.2"],\
+            ["@parcel/compressor-raw", "npm:2.6.2"],\
+            ["@parcel/core", null],\
+            ["@parcel/namer-default", "npm:2.6.2"],\
+            ["@parcel/optimizer-css", "npm:2.6.2"],\
+            ["@parcel/optimizer-htmlnano", "npm:2.6.2"],\
+            ["@parcel/optimizer-image", "npm:2.6.2"],\
+            ["@parcel/optimizer-svgo", "npm:2.6.2"],\
+            ["@parcel/optimizer-terser", "npm:2.6.2"],\
+            ["@parcel/packager-css", "npm:2.6.2"],\
+            ["@parcel/packager-html", "npm:2.6.2"],\
+            ["@parcel/packager-js", "npm:2.6.2"],\
+            ["@parcel/packager-raw", "npm:2.6.2"],\
+            ["@parcel/packager-svg", "npm:2.6.2"],\
+            ["@parcel/reporter-dev-server", "npm:2.6.2"],\
+            ["@parcel/resolver-default", "npm:2.6.2"],\
+            ["@parcel/runtime-browser-hmr", "npm:2.6.2"],\
+            ["@parcel/runtime-js", "npm:2.6.2"],\
+            ["@parcel/runtime-react-refresh", "npm:2.6.2"],\
+            ["@parcel/runtime-service-worker", "npm:2.6.2"],\
+            ["@parcel/transformer-babel", "npm:2.6.2"],\
+            ["@parcel/transformer-css", "npm:2.6.2"],\
+            ["@parcel/transformer-html", "npm:2.6.2"],\
+            ["@parcel/transformer-image", "virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2"],\
+            ["@parcel/transformer-js", "virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2"],\
+            ["@parcel/transformer-json", "npm:2.6.2"],\
+            ["@parcel/transformer-postcss", "npm:2.6.2"],\
+            ["@parcel/transformer-posthtml", "npm:2.6.2"],\
+            ["@parcel/transformer-raw", "npm:2.6.2"],\
+            ["@parcel/transformer-react-refresh-wrap", "npm:2.6.2"],\
+            ["@parcel/transformer-svg", "npm:2.6.2"],\
+            ["@types/parcel__core", null]\
+          ],\
+          "packagePeers": [\
+            "@parcel/core",\
+            "@types/parcel__core"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@parcel/core", [\
@@ -1289,6 +1333,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/@parcel-transformer-image-virtual-c93edab28c/0/cache/@parcel-transformer-image-npm-2.6.2-28b8a807bd-2627a162b9.zip/node_modules/@parcel/transformer-image/",\
+          "packageDependencies": [\
+            ["@parcel/transformer-image", "virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2"],\
+            ["@parcel/core", null],\
+            ["@parcel/plugin", "npm:2.6.2"],\
+            ["@parcel/workers", "virtual:aa1797faca4a934b86d07dfa52e0db4db288b85fed415e745782ef9bd4bd39771970f9017a79cb7ed092d23d2539cea12a1cec949dfa0bb86e0fda2290caa70e#npm:2.6.2"],\
+            ["@types/parcel__core", null],\
+            ["nullthrows", "npm:1.1.1"]\
+          ],\
+          "packagePeers": [\
+            "@parcel/core",\
+            "@types/parcel__core"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:59f42d21c0d91b44ddd38dd9b615be63561bfb328b3407bef58ea7e6e51805c45b5711a66299af975cf3890af3b47b739db8f1bbd81751e0107b8a66310ba033#npm:2.6.2", {\
           "packageLocation": "./.yarn/__virtual__/@parcel-transformer-image-virtual-628a4eec2d/0/cache/@parcel-transformer-image-npm-2.6.2-28b8a807bd-2627a162b9.zip/node_modules/@parcel/transformer-image/",\
           "packageDependencies": [\
@@ -1313,6 +1373,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@parcel/transformer-js", "npm:2.6.2"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-5e3e27b2fe/node_modules/@parcel/transformer-js/",\
+          "packageDependencies": [\
+            ["@parcel/transformer-js", "virtual:25ab511e325c5660669950de79a9d9730bdd0608bf85c230a4b068658fdfe0f1d1c01d451ae619636af738e1a96b8c8a0db752eaf8e1bc4564ae64ffcb317efc#npm:2.6.2"],\
+            ["@parcel/core", null],\
+            ["@parcel/diagnostic", "npm:2.6.2"],\
+            ["@parcel/plugin", "npm:2.6.2"],\
+            ["@parcel/source-map", "npm:2.1.0"],\
+            ["@parcel/utils", "npm:2.6.2"],\
+            ["@parcel/workers", "virtual:aa1797faca4a934b86d07dfa52e0db4db288b85fed415e745782ef9bd4bd39771970f9017a79cb7ed092d23d2539cea12a1cec949dfa0bb86e0fda2290caa70e#npm:2.6.2"],\
+            ["@swc/helpers", "npm:0.4.3"],\
+            ["@types/parcel__core", null],\
+            ["browserslist", "npm:4.21.2"],\
+            ["detect-libc", "npm:1.0.3"],\
+            ["nullthrows", "npm:1.1.1"],\
+            ["regenerator-runtime", "npm:0.13.9"],\
+            ["semver", "npm:5.7.1"]\
+          ],\
+          "packagePeers": [\
+            "@parcel/core",\
+            "@types/parcel__core"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:59f42d21c0d91b44ddd38dd9b615be63561bfb328b3407bef58ea7e6e51805c45b5711a66299af975cf3890af3b47b739db8f1bbd81751e0107b8a66310ba033#npm:2.6.2", {\
           "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-786bee3064/node_modules/@parcel/transformer-js/",\
@@ -3499,6 +3583,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-parcel-boilerplate", "workspace:."],\
+            ["@parcel/config-default", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
             ["@parcel/transformer-svg-react", "npm:2.6.2"],\
             ["parcel", "virtual:a0e5fa2dcf185287a0b33dc20c339dc1d64d9ddc56ae2bdac3c753abc5597cf999182346ed88ed3f09ad13b26844c6c49d92e5edb7985c54571693bf8a882150#npm:2.6.2"],\
             ["prettier", "npm:2.7.1"],\
